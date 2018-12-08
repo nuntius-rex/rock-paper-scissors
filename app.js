@@ -54,7 +54,7 @@ function score(p1, p2){
     The construct, corresponds with the rules of rock-paper-scissors
     1.) Working from the inside-out in PEMDAS order, the difference of the
     two player scores is first calculated (p1.num - p2.num)
-    2.) 3 is added (3+ to force at least one positive division remainder greater than 0
+    2.) 3 is added (3+ to force at least one positive division remainder greater than or equal to 0
     3.) modulus )%3 lastly divides the result by 3 and returns the remainder
     The remainder will directly correspond to the winner, with 0 = tie.
 
